@@ -4,6 +4,7 @@ import moviesDataSlice from './reducer';
 import { persistStore, persistReducer } from 'redux-persist';
 import sessionStorage from 'redux-persist/lib/storage/session'; 
 
+
 const perSisConfig = {
     key: "root",
     storage: sessionStorage,

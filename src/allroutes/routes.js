@@ -3,6 +3,7 @@ import { paths } from './paths';
 import Home from '../pages/Home';
 import Form from '../pages/Form';
 
+
 const allRoutes = createRoutesFromElements(
   <>
     <Route  path={paths.root } element={<Home />} />
